@@ -1,0 +1,13 @@
+pwd ---present working directory
+cd --- change directory
+ls ----list the files
+git add .
+git commit -m "initia commit"     (m for message)
+git push origin master
+
+git status
+ git remote add origin https://github.com/Himansipatel/Python-Work-Space.git
+git init
+git pull origin master
+ git status
+git add physician_rx.csv
