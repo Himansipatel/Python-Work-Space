@@ -1,0 +1,7 @@
+<form method="POST" action="{% url 'new' %}">
+    {% csrf_token %}
+    <!-- cross-site reference -->
+    {{form.as_p}}
+    <!-- {{form.as_ul}} -->
+    <input type="submit">
+</form>
